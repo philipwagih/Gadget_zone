@@ -29,7 +29,7 @@ public class Cart extends AppCompatActivity implements Adapter.clickMenuItemList
 
     public void openLocActivity()
     {
-        Intent intent = new Intent(this, GPSLoc.class);
+        Intent intent = new Intent(this, LocationFind.class);
         startActivity(intent);
     }
     @Override

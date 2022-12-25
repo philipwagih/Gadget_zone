@@ -41,6 +41,7 @@ public class GPSLoc extends FragmentActivity implements OnMapReadyCallback {
     myLocationListener locListener;
     Button getLocation,saveLocation;
     EditText addressText;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
